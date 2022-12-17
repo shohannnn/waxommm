@@ -1,0 +1,648 @@
+/* all common css start  */
+*{
+   padding: 0;
+   margin: 0;
+   outline: 0;
+   box-sizing: border-box; 
+}
+a, a:hover{
+    text-decoration: none;
+ display: inline-block;
+}
+ul,ol{
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+/* all common css start  */
+
+/* header_part_start  */
+.navbar {
+   position: fixed;
+   width: 100%;
+   top: 0;
+   left: 0;
+  }
+.navbar-expand-lg .navbar-nav .nav-link {
+   color: #fff;
+   font-size: 14px;
+   font-weight: 300;
+   font-family:'Montserrat', sans-serif;;
+  }
+  .navbar-expand-lg .navbar-nav .nav-link:hover{
+    color: #c7b299;
+  }
+
+/* header_part_end  */
+#banner_part{
+    background: url(../imeges/waxon\(2\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.bannner_overly{
+    padding: 380px 0;
+    background: rgba(17, 17, 17, 0.7);
+}
+.banner_content h3{
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+
+}
+.banner_content h1{
+    font-size: 45px;
+    font-weight: 800;
+  font-family: 'Raleway', sans-serif;
+ padding-top: 15px;
+ padding-bottom: 30px;
+
+}
+.banner_content p{
+    font-size: 16px;
+    font-weight: 300;
+    font-family:'Montserrat', sans-serif;
+    line-height: 24px;
+    width: 564px;
+    margin: 0 a;
+}
+.banner_content a{ 
+    margin-top:50px ;
+    padding: 21px 37px 18px 37px;
+    border-top: 3px solid #736357;
+    border-radius: 5px;
+    background: #998675;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 800;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+
+}
+
+
+#service_parts{
+    padding:80px 0 ;
+}
+.service_icon{
+    font-size: 50px;
+    color: #000000;
+}
+
+
+
+.service_item_txt h3{
+    padding-top: 30px;
+    padding-bottom: 17px;
+    font-size: 22px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    color: #555;
+
+}
+.service_item_txt p{
+    line-height: 20px;
+    font-size: 14px;
+   font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    width: 280px;
+    position: relative;
+    color:#8c8c8c
+    
+    
+    
+}
+.service_item_txt p::after {
+	position: absolute;
+	bottom: -30px;
+	left: 110px;
+	content: "";
+	height: 3px;
+	width: 70px;
+	background: #c7b299;
+	transform: translateX(-50);
+}
+.service_item:hover .service_icon{
+    color: #c7b299;
+}
+.service_item:hover .service_item_txt p::after{
+    background: #0f0902;
+}
+.service_item:hover .service_item_txt h3{
+    color: #c7b299;
+}
+/* bannerpart end  */
+/* idea_part start  */
+#idea_part{
+    padding-top: 80px 0;
+    background: #fbfaf8;
+}
+.idea_txt_part h3{
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    color: #555555;
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+.idea_txt_part p{
+    font-size: 16px;
+    font-weight: 300;
+    font-family:'Montserrat', sans-serif;
+    line-height: 20px;
+    color: #8c8c8c;
+    width: 768px;
+    margin: 0 auto;
+}
+/* idea_part end */
+
+/* <!-- purches_part start  --> */
+#purches_part{
+    padding: 50px 0;
+    background: linear-gradient(to right,#251e1b,#30241e,#4a3226);
+
+}
+.p_txt h3{
+    font-size: 28px;
+    font-family: 'Raleway', sans-serif;
+     font-weight: 400;
+     padding-bottom: 20px;
+    color: #fff;
+    
+}
+.p_txt span{
+    color: #c7b299;
+}
+.p_txt p{
+   color:  #615855;
+   font-size: 18px;
+   font-weight: 300;
+   font-family:'Montserrat', sans-serif;;
+}
+.p_bttn{
+    margin-right: -48px;
+}
+.p_bttn a{
+    padding: 21px 37px 18px 37px;
+    border-top: 3px solid #736357;
+    border-radius: 5px;
+    background: #998675;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 800;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+}
+/* <!-- purches_part end --> */
+
+/* <!-- projets_part start  --> */
+#projets_part{
+    padding: 80px 0;
+}
+.project_btn_part button{
+    padding: 10px 20px;
+    border: 1px solid rgb(114, 112, 112);
+    background: transparent;
+    border-radius: 5px;
+    color: #8c8c8c;
+    margin-right: 5px;
+}
+.project_img{
+    position: relative;
+}
+.project_btn_part button:hover{
+    background: #998675;
+    color: #fff;
+}
+.project_txttttt{
+    padding: 30px;
+    background:#fbfaf8 ;
+}
+.project_shape {
+	width: 30px;
+	height: 30px;
+	background: #fbfaf8;
+	position: absolute;
+	bottom: -25px;
+	left: 27px;
+	transform: rotate(45deg);
+}
+.project_txttttt h3{
+    color: #c7b299;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 15px;
+}
+.project_txttttt p{
+    color: #d1d1d1;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+}
+.project_item:hover .project_txttttt {
+   background: #362f2d;
+}
+.project_item:hover .project_shape{
+    background: #362f2d;
+}
+.ovepart{
+    position: relative;
+}
+.overly{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:rgba(0, 0, 0, 0.7);
+}
+.ovepart img i{ 
+    font-size: 50px;
+}
+
+/* <!-- projets_part end  --> */
+
+/* <!-- presentaion work start  --> */
+#presentation_part{
+    padding-top: 210px;
+    padding-bottom: 250px;
+    background: url(../imeges/waxon-venu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.presention_text22 h4{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    color: #ffff;
+    padding-top: 50px;
+    padding-bottom: 28px
+ 
+}
+.presention_text22 p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #ffff;
+    line-height: 20px;
+    width: 657px;
+}
+/* <!-- presentaion work end  --> */
+/* devices_part start  */
+#devices_part{
+    padding-top:80px;
+    background: rgb(224, 214, 214);
+}
+.devices_part_text{
+    margin-top: 110px;
+}
+.devices_part_text h3{
+    font-size: 30px;
+    color: #555;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+   padding-bottom: 35px;
+}
+.devices_part_text p{
+    font-size: 16px;
+    color: #555;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    line-height: 20px;
+    width: 665px;
+}
+.list_type{
+    margin-top: 50px;
+    margin-left: 45px;
+}
+.list_type ul li{
+    
+    margin-bottom: 23px;
+    font-size: 16px;
+    color: #555;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+
+}
+.list_type ul li i{
+   margin-right: 10px;
+ 
+}
+
+/* devices_part end  */
+
+/* counter part start*/
+#counter_part{
+padding: 65px 0;
+background: linear-gradient(to right,#251e1b,#30241e,#4a3226); ;
+}
+.coun_icon{
+    font-size: 45px;
+}
+.count h3{
+    color: #fff;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 44px;
+    font-weight: 300;
+}
+.count_text h5{
+    color: #c7b299;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+    position: relative;
+    
+}
+.count_text h5::after {
+	position: absolute;
+	height: 3px;
+	width: 36px;
+	top: 41px;
+	left: 77px;
+	content: "";
+	background: #fff;
+}
+/* counter part end*/
+
+/* recent part star  */
+#recent_part{
+    padding-top: 85px;
+    padding-bottom: 80px;
+    background: #fff;
+}
+.recent_txt_part h3{
+    color: #555555;
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    padding-bottom: 25px;
+    
+
+}
+.recent_txt_part p{
+    color: #8c8c8c;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    line-height: 20px;
+    width: 946px;
+    padding-bottom: 40px;
+}
+.arrrows{
+    
+    width: 118px;
+}
+/* recent part end  */
+/* logo part start  */
+#logo_part{
+    padding: 135px 0;
+    background: url(../imeges/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+/* logo part end  */
+
+/* waxon last par start  */
+#waxon_last_part{
+    padding: 85px 0;
+    background: #191919;
+}
+.logooosss_txt_part p{
+    font-size: 14px;
+    color: #555;
+    font-weight: 300;
+    line-height: 20px;
+    width: 265px;
+    padding: 30px 0;
+    
+    font-family: 'Montserrat', sans-serif
+    
+}
+.logooosss_txt_part h3{
+    color: #d1d1d1;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+   
+    text-transform: uppercase;
+}
+.logooosss_txt_part i{
+    margin-right: 10px;
+}
+.waxon_2nd_tt_part{
+margin-top: 30px;
+}
+.waxon_2nd_tt_part h3{
+    color: #fff;
+    padding-bottom: 30px;
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+.waxon_2nd_tt_part h6{
+    color: #676363;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;  
+    padding-bottom: 12px;
+}
+.waxon_2nd_tt_part p{
+    color: #555555;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    line-height: 18px;
+    width: 256px;
+    padding-bottom: 25px;
+    
+
+}
+.border_strt{
+
+width: 275px;
+border: 1px solid #252525 ;
+}
+.waxon_3rd_tt_part{
+    padding-top:20px ;
+}
+.waxon_3rd_tt_part h3{
+    color:#fff;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    padding-bottom: 15px;
+
+
+}
+.waxon_3rd_tt_part p{
+    color:#c7b299 ;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    line-height: 16px;
+    width: 310px;
+    padding-bottom: 25px;
+
+}
+.waxon_4th_tt_part h3{
+    color: #676363;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;  
+    padding-top: 20px;
+    padding-bottom: 12px;
+}
+.waxon_4th_tt_part p{
+    color: #555555;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    line-height: 18px;
+    width: 266px;
+    padding-bottom: 25px;
+}
+.waxon_5th_tt_part{
+    margin-top: 30px;
+}
+
+.waxon_5th_tt_part h3{
+    color: #fff;
+    padding-bottom: 30px;
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+.waxon_5th_tt_part p {
+	color: #555555;
+	font-size: 14px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	line-height: 18px;
+	width: 278px;
+	padding-bottom: 10px;
+}
+.waxon_5th_tt_part p span{
+    color: #12bae9;
+}
+.waxon_5th_tt_part h6{
+    color: #676363;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;  
+    padding-bottom: 26px;
+}
+.waxon_6th_tt_part p{
+    color: #555555;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    line-height: 18px;
+    width: 292px;
+    padding-top: 10px;
+}
+.waxon_6th_tt_part h6{
+    color: #676363;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;  
+   padding-top: 10px;
+   padding-bottom: 30px;
+}
+.waxon_6th_tt_part p span{
+    color: #12bae9;
+}
+.waxon_7th_tt_part p{
+    color: #555555;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    line-height: 18px;
+   
+    padding-top: 10px;
+}
+.waxon_7th_tt_part p span{
+    color: #959595;
+}
+.waxon_7th_tt_part h6{
+    color: #676363;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300; 
+    padding-top: 10px;
+}
+.waxon_8th_tt_part{
+    margin-top: 30px;
+}
+
+.waxon_8th_tt_part h3{
+    color: #fff;
+    padding-bottom: 30px;
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+.waxon_8th_tt_part h2{
+    color: #fff;
+
+}
+
+/* waxon last par end */
+/* copyrigth last section  */
+#copyrigth_part{
+    padding: 45px 0;
+    background: #111111;
+}
+.txttttttttt____part h3{
+    color: #959595;
+    font-size: 13px;
+    
+}
+.txttttttttt____part h3 span{
+    color:#bba790 ;
+}
+
+/* copyrigth last section end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
